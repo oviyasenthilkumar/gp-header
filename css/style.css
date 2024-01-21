@@ -82,7 +82,8 @@ header{
 	list-style-type:none;
 }
 .dropdown ul{
-	display:block;
+	display:flex;
+	flex-direction:column;
 }
 .dropdown ul li{
 	width:12rem;
